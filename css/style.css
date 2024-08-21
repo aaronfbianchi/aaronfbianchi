@@ -13,6 +13,14 @@
   }
 }
 
+.vid-fondo {
+  width: 100vw;
+  opacity: 0.9;
+}
+
+.vid-header-footer{
+  image-rendering: pixelated;
+}
 
 body {
   /*position: relative;*/
