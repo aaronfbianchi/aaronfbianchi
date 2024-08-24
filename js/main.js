@@ -9,7 +9,7 @@ jQuery(document).ready(function( $ ) {
     }
   });
   $('.back-to-top').click(function(){
-    $('html, body').animate({scrollTop : 0},1500, 'easeInOutExpo');
+    $('html, body').animate({scrollTop : 0},1000, 'easeInOutExpo');
     return false;
   });
 
@@ -93,7 +93,7 @@ jQuery(document).ready(function( $ ) {
 
         $('html, body').animate({
           scrollTop: target.offset().top - top_space
-        }, 1500, 'easeInOutExpo');
+        }, 1000, 'easeInOutExpo');
 
         if ($(this).parents('.nav-menu').length) {
           $('.nav-menu .menu-active').removeClass('menu-active');
