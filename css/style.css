@@ -40,6 +40,15 @@ a:hover, a:active, a:focus {
   text-decoration: none;
 }
 
+.a.simple {
+  color: #999;
+  font-weight: bold;
+}
+
+.a.simple:hover {
+  color: #ff004c; /* Color al pasar el mouse */
+}
+
 p {
   padding: 0;
   margin: 0 0 30px 0;
@@ -758,7 +767,7 @@ body.mobile-nav-active #mobile-nav-toggle {
   width: 600px !important; /* Set the width of the images */
   height: 10vw; /* Set the height of the images */
   justify-content: space-between !important;
-  opacity: 0.5;
+  opacity: 0.6;
   transition: 0.3s;
 }
 
